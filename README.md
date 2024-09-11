@@ -40,3 +40,15 @@ Feel free to reach out if you have any questions, or suggestions, or want to con
 
 
 This project is about...
+
+### Project Information
+
+**Project Name**: LeetCode Projects
+
+**Description**: This repository contains solutions to various LeetCode problems.
+    
+**Details**:
+- This repository is regularly updated with new problems and solutions.
+- Contributions are welcome!
+
+**Current Status**: Actively maintained.
