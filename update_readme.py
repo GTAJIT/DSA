@@ -2,8 +2,7 @@ import openai
 from github import Github
 
 # Replace with your OpenAI API key
-# s = "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"
-openai.api_key = s
+openai.api_key = 
 
 def generate_info(points):
     prompt = f"Generate a README section based on the following points:\n{points}\n\n### README Content:"
@@ -35,8 +34,7 @@ def main():
         
         if user_input == 'Y':
             # Replace with your GitHub token
-            # f = "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"
-            token = f
+            token = 
             
             g = Github(token)
             repo = g.get_repo("GTAJIT/LeetCode-Projects")
