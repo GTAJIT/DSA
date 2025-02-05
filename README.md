@@ -26,14 +26,6 @@ If you'd like to contribute to any of these projects or have suggestions for imp
 ## License
 This repository is licensed under the MIT License. Feel free to use, modify, and distribute the code as you see fit.
 
-## Contact
-Feel free to reach out if you have any questions, or suggestions, or want to connect:
-
-- **Email**: jitmukherjee.dev@gmail.com
-- **LinkedIn**: [Jit Mukherjee](https://www.linkedin.com/in/jit-mukherjee)
-- **Facebook Page**: [CodesByJit]([https://www.linkedin.com/in/jit-mukherjee](https://www.facebook.com/profile.php?id=61564525307391))
-- **Instagram Page**: [CodesByJit](https://www.linkedin.com/in/jit-mukherjee)
-
 ## Problem Categories
 
 ## Projects
