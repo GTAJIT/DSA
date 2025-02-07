@@ -1,0 +1,12 @@
+const accountId = 12345;
+let accountEmail = "mukhujeegtajit@gmail.com";
+var accountPassword = "gtajit12";
+// accountCity = "kolkata"
+let accountState;
+let accountName = "Jit";
+/*
+never use var, normal variable types
+*/
+console.log(accountName);
+console.table([accountId, accountEmail, accountPassword, accountState]);
+
