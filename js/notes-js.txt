@@ -10,3 +10,115 @@ never use var, normal variable types
 console.log(accountName);
 console.table([accountId, accountEmail, accountPassword, accountState]);
 
+"use strict"; // treat as new js
+// alert(3+3) // only use in doc js
+
+/* data types */
+// number => 2 to power 53
+// bigint
+// string => ""
+// boolean => true/false
+// null => standalone value ## this is a object
+// undefined => no value
+// symbol => unique
+// object
+
+console.log(typeof ("jit"))
+
+// let score = "122abc"
+// console.log(typeof score)
+// let valNum = Number(score)
+// console.log(typeof valNum, valNum) 
+//122abc = number NaN // NaN is a number
+//null = number 0 
+//true = num 1 //false = num 0
+// for boolean // 1 => true // 0 => false // "" => false // "you" => true
+
+let val=3
+let negVal= -val
+// console.log(negVal)  //-3
+
+
+// opretors // [ + - * / ** // ]
+let val1=1
+let val2= 2
+let valMain = val1+val2
+let valMain1 = 1 + 1 + "2"  // starting is int
+let valMain2 = "1" + 2 + 2  // starting is str
+console.log(valMain)
+console.table([valMain1,typeof (valMain1), valMain2])
+console.log(+true)  // +  convert it 
+console.log(+"")
+
+// let a = 1
+// a++ // postfix  -- the out put is like x:2,y:1
+// ++a // prefix -- the out put is like x:2,y:2
+// console.log(a)
+
+console.log("02">1)
+console.log(null>0)
+console.log(null==0)
+console.log(null>=0)
+
+console.log("2" == 2)       //checks only the value
+console.log("2" === 2)      //checks value and datatype
+
+// datatype
+    // primitive 
+        // 7 types: structuredClone,Number,Boolean,null,undef,sym,bint
+    // referance (Non  primitive)
+        // array, obj, fun
+
+//## js = dinamic lang => bcz we dont have too tell it what is the datapype of a var
+
+
+// const id = Symbol("123")
+// const newId = Symbol("123")
+
+// console.log(id===newId);
+
+// Array
+const heros = ["",1,false,null];
+
+// object
+let obj = {
+    name: "jit",
+    age: 22,
+}
+
+// function 
+const myFunction = function (){
+    console.log("hello")
+}
+console.log(myFunction);
+
+// memory
+//     stack: primitive
+//     heap: non-primitive
+
+let my = "jit"
+let ok = my
+ok = "hi"
+
+console.log(my, ok);
+
+let userOne = {
+    email: "user@gamil.com",
+    upi: "user@ybl",
+}
+let userTwo = userOne
+userTwo.email = "jit@gmail.com"
+
+console.log(userOne , userTwo);
+
+let nam = "jit"
+const age = 19
+
+// console.log(`Hello my name is ${nam.toUpperCase()} and my age is ${age}`);
+const nice = new String(nam)
+// console.log(nice.length);
+
+const newname = nam.substring(0,2)
+const newname2 = nam.slice(-1,2)
+console.log(newname, newname2);
+
