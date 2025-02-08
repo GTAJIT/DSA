@@ -122,3 +122,18 @@ const newname = nam.substring(0,2)
 const newname2 = nam.slice(-1,2)
 console.log(newname, newname2);
 
+const Min = 10
+const Max = 20
+
+let a = Math.floor(Math.random()*(Max-Min+1)+Min)
+console.log(a)
+
+let myDate = new Date()
+
+console.log(myDate.toDateString());
+console.log(myDate.getDate());
+console.log(Math.floor(Date.now()/1000)) // time in sec from 1/1/1970
+myDate.toLocaleString('default', {
+    weekday: "long",
+})
+

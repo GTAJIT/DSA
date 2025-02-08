@@ -1,0 +1,117 @@
+// arrays
+const myArr = [0,1,2,3,4,5]
+const myHeros = ["yo","hi"]
+
+const myArr2 = new Array(1,2,3,4)
+
+// Arryay methods
+
+myArr.push(6)
+myArr.pop()
+myArr.unshift(0) // add val to the start
+myArr.shift()   // del the first val
+
+
+// console.log(myArr.includes(2))
+// console.log(myArr.indexOf(2)) // if the val is not in the array so it gives -1
+// const newArr = myArr.join()  //make it string
+console.log(newArr)
+
+//  slice, splice
+const myArr = [0,1,2,3,4,5]
+console.log("A ", myArr);
+const myn1 = myArr.slice(1,3)   // it dont manupulate the original array => 1,2
+const myn2 = myArr.splice(1,3)  // it manupulates the original array => 1,2,3 but change the array val to = 0,4,5
+console.log(myn1, myn2); 
+
+// const a = ["jit","bela","bena"]
+// const b = ["you",2441139,"hello"]
+
+// a.push(b)
+// let c = a.concat(b)
+// let c = [...a,...b]
+
+// const d = [1,2,3,[4,5],6,[7,8,[9,0]]]
+// const readAble_d = d.flat(Infinity) 
+// console.log(readAble_d);
+
+// console.log(Array.isArray("jit"))
+// console.log(Array.from("jit"))
+// console.log(Array.from({name: "nobody"})) //intresting
+let score1 = 100
+let score2 = 100
+let score3 = 100
+
+console.log(Array.of(score1,score2,score3));
+
+// Object {}
+
+// singleton => made by constracters // object.create
+// object literals => //const obj = {}
+const symb = Symbol("key1") //thi is a symbol
+
+const obj = {
+    name:"jit",
+    "full name":"jit mukherjee",
+    [symb]: "myKey1", //to use the symbol we rap it with []
+    age: 19,
+    location: "kolkata",
+    email: "user@gmail.com",
+}
+
+// console.log(obj.name);
+// console.log(obj["full name"]);
+// console.log(typeof obj[symb]);
+// console.log(obj[symb]); //to use the symbols val
+obj.age = 20
+// Object.freeze(obj) //   freeze the obj for further change
+
+obj.greeting = function(){
+    console.log(`Hello ${this.name} whats up !!`);
+}
+
+console.log(obj.greeting); //[Function (anonymous)]
+obj.greeting()
+
+// const tinderObj = {} //non-singletom
+// const tinderUser = new Object()  //singleton 
+const obj1 = {
+    a:1,
+    b:2,
+}
+const obj2 = {
+    c:3,
+    d:4,
+}
+
+// const obj_merge = {obj1,obj2}
+// const obj_merge = Object.assign({}, obj1,obj2)
+const obj_merge = {...obj1,...obj2}
+console.log(obj_merge)
+
+const users = [
+    {
+        name: "jit",
+    }
+]
+
+// console.log(users[1].name)
+console.log(Object.keys(users));
+
+const course = {
+    courseName: "js",
+    price: "999",
+    corseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+const {corseInstructor: instructor} = course //destructuring
+console.log(instructor);
+
+// API => 
+    // JSON =>
+    // {
+    //     "key":"val",
+    // }
+
