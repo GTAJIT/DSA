@@ -1,0 +1,124 @@
+// // / LOOPS / // //
+
+// break and continue
+
+for (let index = 1; index <= 20; index++) {
+    if (index == 5){
+        console.log(`detected 5`);
+        break
+    } else if (index == 3){
+        console.log(`detected 3`);
+        continue
+    }
+    console.log(`val of i is ${index}`);
+    
+}
+
+// for loop
+const array = 10
+for (let i = 0; i <= array; i++) {
+    const element = i;
+    console.log(element);   
+}
+
+// while loop
+i = 0
+while (i<10) {
+    console.log(i);
+    i++
+}
+
+//  do-while loop
+let i = 0
+do{
+    console.log(i);
+    i++
+} while (i<10)
+
+let a = [1,2,3,4,5,6,7,8,9,0]
+// for of loop
+for (const i of a) {
+    console.log(i);
+        
+}
+
+//  Maps
+const map = new Map()
+map.set(`IN`,`India`)
+map.set(`USA`,`USA`)
+map.set(`Fr`,`France`)
+map.set(`IN`,`India`)
+
+// console.log(map);
+
+for (const [key,val] of map) {
+    console.log(key, val); 
+}
+
+// for in loops
+object = [1,2,3,4]
+for (const i in object) {
+    console.log(i); //  prints the index of the array
+}
+
+const a = ["js","cpp","python"]
+//for each
+// a.forEach((i)=>{console.log(i);
+// })
+
+function printMe(i, index, arr) {
+    console.log(i, index, arr);
+    
+}
+a.forEach(printMe)
+
+//  forEach main
+const myCodeing = [
+    {
+        langN: "js",
+        langF: "javascript",
+
+    },
+    {
+        langN: "py",
+        langF: "python",
+    }
+]
+
+myCodeing.forEach((i)=>{
+    console.log(i.langN);
+})
+
+const a = ["js","cpp","python"]
+
+const b = a.forEach((i)=>{
+    return i //             forEcah returns undifined or it dont rreturns anything
+})
+console.log(b);
+
+// way-1
+// let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+// const newNums = a.filter((num) => num > 4);
+// console.log(newNums);
+
+//way-2
+// const a = []
+// a.forEach((num)=>{
+//     if (num>4){
+//         a.push((num))
+//     }
+// })
+// console.log(a);
+
+const a = [1,2,3,4,5]
+const b = a.map((i)=>i+10)
+console.log(b);
+
+// reduce
+const myNums = [1,2,3]
+const myTotal = myNums.reduce((i,j)=>{
+    return i+j
+},0)
+
+console.log(myTotal);
+

@@ -1,0 +1,48 @@
+// Functions & Peramiters
+function addTwoNumbers(Number1 , Number2){
+    return Number1 + Number2;
+}
+const result = addTwoNumbers(1,2)
+console.log(result);
+
+function calculateCartPrice(val1, ...num1){
+    return num1
+}
+console.log(calculateCartPrice(200,300,400));
+
+const var1 = {
+    username : "jit",
+    id: 241013005005,
+    age:19,
+    location:"kolkata",
+}
+
+function obj(anyobject){
+    console.log(`username is ${anyobject.username} and id is ${anyobject.id}`);
+}
+obj(var1)
+
+let a = 300 //  global scope
+if (true) {
+    let a = 10 //   block/local scope
+    console.log(a)
+}
+console.log(a)
+
+function one (){
+    let username = "jit"
+    console.log(this)
+    // console.log(this.username)
+}
+one()
+
+const chai = () => {
+    let username = "jit"
+    console.log(this)
+}
+chai()
+
+((name)=>{
+    console.log(`${name}`) //   IIFE
+})("jit");
+
