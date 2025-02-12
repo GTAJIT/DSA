@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color-Changer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <nav class="bg-gray-200 flex items-center justify-center gap-1 p-2">
+        <a href="../index.html" aria-current="page"
+            class="bg-gray-300 m-2 pt-1 pb-1 pl-10 pr-10 items-center rounded-sm border capitalize hover:scale-105 hover:bg-gray-400">home</a>
+        <a target="_blank" href="https://www.linkedin.com/in/jit-mukherjee/" aria-current="page"
+            class="bg-gray-300 m-2 pt-1 pb-1 pl-10 pr-10 items-center rounded-sm border capitalize hover:scale-105 hover:bg-gray-400">CodesByJit</a>
+    </nav>
+    <div class="capitalize bg-black text-white">
+        <div class="flex flex-col items-center justify-center h-[93vh]">
+            <div class="font-bold">your local time</div>
+            <div class="border-nome bg-yellow-600 mt-3 p-3 pl-15 pr-15 rounded-md">
+                <span id="ans" class="p-5"></span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

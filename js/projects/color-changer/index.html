@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color-Changer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <nav class="bg-gray-200 flex items-center justify-center gap-1 p-2">
+        <a href="../index.html" aria-current="page" class="bg-gray-300 m-2 pt-1 pb-1 pl-10 pr-10 items-center rounded-sm border capitalize hover:scale-105 hover:bg-gray-400">home</a>
+        <a target="_blank" href="https://www.linkedin.com/in/jit-mukherjee/" aria-current="page" class="bg-gray-300 m-2 pt-1 pb-1 pl-10 pr-10 items-center rounded-sm border capitalize hover:scale-105 hover:bg-gray-400">CodesByJit</a>
+    </nav>
+    <div class="canvas text-center items-center m-5 gap-5 flex flex-col font-bold">
+        <h1>Color Scheme Switcher</h1>
+        <div>
+            <span class="button bg-white" id="white"></span>
+            <span class="button bg-pink-500" id="pink"></span>
+            <span class="button bg-red-500" id="red"></span>
+            <span class="button bg-green-500" id="green"></span>
+            <span class="button bg-blue-500" id="blue"></span>
+            <span class="button bg-yellow-500" id="yellow"></span>
+        </div>
+        <h2>Try Clicking on one of the colors above <span>to change the bg color of the page!</span></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

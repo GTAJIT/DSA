@@ -1,0 +1,10 @@
+.button{
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+    transition: ease-in-out .10s;
+}
+.button:hover{
+    scale: 1.025;
+}
