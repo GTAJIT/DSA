@@ -1,9 +1,6 @@
 :root{
     --bg: #27272a;
     --bg-dark: #1d1d1d;
+    --btn: #0404047e;
+    --btn-dark: #000000;
 }
-
-/*
-body{
-    background-color: var(--bg);
-} */
