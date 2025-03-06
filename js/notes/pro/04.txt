@@ -1,0 +1,17 @@
+const user = {
+    username: "jit",
+    loginCount: 8,
+    signIn: true,
+    
+    getUserDetails: function(){
+        // console.log(`${this.username} from database`);
+        console.log(this);
+    }
+}
+user.getUserDetails()
+
+we can create new function prototypes by using 
+class_name.prototype.const_name = ...
+after declaring new prototype we have to use "new fun_call()" to add the data into the var
+and to use the prototype use have to call it bhy using "useCase_name.fun_name()"
+
