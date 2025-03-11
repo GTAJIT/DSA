@@ -4,6 +4,7 @@ import useCurrencyInfo from "./hooks/useCurrencyInfo";
 import { InputBox } from "./components";
 import { useState } from "react";
 
+const yo = "i have to close it"
 function App() {
   const [amount, setAmount] = useState(0);
   const [from, setFrom] = useState("usd");
