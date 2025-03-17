@@ -1,0 +1,23 @@
+{
+  "name": "leetcode-projects",
+  "version": "1.0.0",
+  "description": "Welcome to the **LeetCode Projects** repository! This repository contains solutions to various LeetCode problems I have solved. Each solution is designed to enhance problem-solving skills and explore different algorithms and data structures using Python.",
+  "homepage": "https://github.com/GTAJIT/DSA#readme",
+  "bugs": {
+    "url": "https://github.com/GTAJIT/DSA/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GTAJIT/DSA.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
