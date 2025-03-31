@@ -1,8 +1,8 @@
-import Header from './header/Header'
+import Header from './Header/Header'
 import Footer from './Footer'
 import Container from './container/container'
 import Logo from './Logo'
-import LogoutBtn from './header/LogoutBtn'
+import LogoutBtn from './Header/LogoutBtn'
 
 export {
     Header,
