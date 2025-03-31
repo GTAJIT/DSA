@@ -18,6 +18,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "remote-redux-devtools": "^0.5.16",
+    "save-dev": "^0.0.1-security"
   }
 }
