@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import appwriteService from ".";
+import appwriteService from "../appwrite/config";
 import { Container, PostCard } from "../components";
 
 export default function Home() {
