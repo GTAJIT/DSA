@@ -42,14 +42,20 @@ class p3 {
             return n+g(n-1);
         }
     };
-    
+class p5 {
+    public:
+        auto f(int i){
+            if(i<=1) return i;
+            return f(i-1)+f(i-2);
+        }
+};
     
 int main(){
-    p3 p;
+    p5 p;
     rec r; 
-    int n;
-    cin >> n;
+    int i;
+    cin >> i;
     
-    cout<<p.g(n);
+    cout<<p.f(i);
 }
  
